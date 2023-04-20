@@ -1,0 +1,49 @@
+name: frontend
+
+on:
+  pull_request:
+    branches: [ "main", "develop" ]
+    paths-ignore: []
+  push:
+    branched: [ "main", "develop" ]
+    paths-ignore: []
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./frontend
+    steps:
+      - name: Checkout Code Repository
+        uses: actions/checkout@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: "yarn"
+          cache-dependency-path: |
+            frontend/yarn.lock
+      - run: |
+          yarn install --immutable --immutable-cache --check-cache
+          yarn eslint --ignore-path .eslintignore --ext .ts,.tsx ./src
+          yarn prettier ./src/**/*.ts* --check
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./frontend
+    steps:
+      - name: Checkout Code Repository
+        uses: actions/checkout@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: "yarn"
+          cache-dependency-path: |
+            frontend/yarn.lock
+      - run: |
+          yarn install --immutable --immutable-cache --check-cache
+          CI=false yarn build
+          yarn test
