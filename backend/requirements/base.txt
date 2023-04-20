@@ -1,0 +1,7 @@
+# Django
+django==4.2.0  # https://github.com/django/django
+
+# Django REST Framework
+djangorestframework==3.14.0  # https://github.com/encode/django-rest-framework
+
+uvicorn[standard]==0.21.1  # https://github.com/encode/uvicorn
