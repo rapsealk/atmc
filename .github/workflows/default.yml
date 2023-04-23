@@ -5,7 +5,7 @@ on:
     branches: [ "main", "develop" ]
     paths-ignore: []
   push:
-    branched: [ "main", "develop" ]
+    branches: [ "main", "develop" ]
     paths-ignore: []
 
 jobs:
