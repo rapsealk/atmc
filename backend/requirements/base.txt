@@ -5,3 +5,7 @@ django==4.2.0  # https://github.com/django/django
 djangorestframework==3.14.0  # https://github.com/encode/django-rest-framework
 
 uvicorn[standard]==0.21.1  # https://github.com/encode/uvicorn
+
+# Graphene
+graphene==3.2.2  # https://github.com/graphql-python/graphene
+graphene-django==3.0.0  # https://github.com/graphql-python/graphene-django
