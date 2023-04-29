@@ -1,0 +1,38 @@
+[
+  {
+    "fields": {
+      "code": "RKSI",
+      "iata": "ICN",
+      "name": "Incheon International Airport"
+    },
+    "model": "airports.airport",
+    "pk": "8ff316db-3800-4385-a9f3-1c97a05b4718"
+  },
+  {
+    "fields": {
+      "code": "RKSS",
+      "iata": "GMP",
+      "name": "Gimpo International Airport"
+    },
+    "model": "airports.airport",
+    "pk": "0a9289bb-0802-4012-97ba-7d04f61cc148"
+  },
+  {
+    "fields": {
+      "code": "RJBB",
+      "iata": "KIX",
+      "name": "Kansai International Airport"
+    },
+    "model": "airports.airport",
+    "pk": "ec2edc9e-58d4-49a9-b940-dada0f479fda"
+  },
+  {
+    "fields": {
+      "code": "KLAX",
+      "iata": "LAX",
+      "name": "Los Angeles International Airport"
+    },
+    "model": "airports.airport",
+    "pk": "7319d258-e173-47f1-aff2-02a79d09edf0"
+  }
+]
