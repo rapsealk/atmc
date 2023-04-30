@@ -2,8 +2,9 @@
   {
     "fields": {
       "code": "KAL",
-      "iata": "KE",
-      "name": "Korean Air"
+      "name": "Korean Air",
+      "call_sign": "KOREAN AIR",
+      "created_at": "2023-05-01T00:00:00.000000"
     },
     "model": "airlines.airline",
     "pk": "5c1b0b32-e1f2-4b09-96ed-c3ed4f5d0893"
@@ -11,8 +12,9 @@
   {
     "fields": {
       "code": "AAR",
-      "iata": "OZ",
-      "name": "Asiana Airlines"
+      "name": "Asiana Airlines",
+      "call_sign": "ASIANA",
+      "created_at": "2023-05-01T00:00:00.000000"
     },
     "model": "airlines.airline",
     "pk": "3f10e180-e355-42d5-a3a1-9361f6f57991"
@@ -20,8 +22,9 @@
   {
     "fields": {
       "code": "JAN",
-      "iata": "LJ",
-      "name": "Jin Air"
+      "name": "Jin Air",
+      "call_sign": "JIN AIR",
+      "created_at": "2023-05-01T00:00:00.000000"
     },
     "model": "airlines.airline",
     "pk": "19d2e0aa-dea4-4641-a38f-3812d1df3473"
@@ -29,8 +32,9 @@
   {
     "fields": {
       "code": "JJA",
-      "iata": "7C",
-      "name": "Jeju Air"
+      "name": "Jeju Air",
+      "call_sign": "JEJU AIR",
+      "created_at": "2023-05-01T00:00:00.000000"
     },
     "model": "airlines.airline",
     "pk": "b888549c-d2db-4aaf-b9de-943b37623174"
@@ -38,8 +42,9 @@
   {
     "fields": {
       "code": "DAL",
-      "iata": "DL",
-      "name": "Delta Air Lines"
+      "name": "Delta Air Lines",
+      "call_sign": "DELTA",
+      "created_at": "2023-05-01T00:00:00.000000"
     },
     "model": "airlines.airline",
     "pk": "465c8fe3-44f8-4408-8652-9206963c9f3c"
@@ -47,9 +52,9 @@
   {
     "fields": {
       "code": "APJ",
-      "iata": "MM",
       "name": "Peach Aviation",
-      "callsign": "AIR PEACH"
+      "call_sign": "AIR PEACH",
+      "created_at": "2023-05-01T00:00:00.000000"
     },
     "model": "airlines.airline",
     "pk": "4e3d1867-a479-4418-ab09-2a7c33229759"

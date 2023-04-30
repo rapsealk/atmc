@@ -10,19 +10,16 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name="Airline",
+            name="Airport",
             fields=[
                 ("id", models.UUIDField(primary_key=True, serialize=False)),
                 (
                     "code",
                     models.CharField(
-                        max_length=3,
-                        unique=True,
-                        verbose_name="ICAO Airline Designator",
+                        max_length=4, unique=True, verbose_name="ICAO Airport Code"
                     ),
                 ),
-                ("name", models.CharField(max_length=32, unique=True)),
-                ("call_sign", models.CharField(max_length=16)),
+                ("name", models.CharField(max_length=64)),
                 ("created_at", models.DateTimeField(auto_now_add=True)),
                 ("last_modified_at", models.DateTimeField(auto_now=True, null=True)),
             ],

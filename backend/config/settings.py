@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     # Applications
     "aircrafts",
     "airlines",
+    "airports",
     "flights",
 ]
 

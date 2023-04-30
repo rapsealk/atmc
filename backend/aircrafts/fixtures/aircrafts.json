@@ -1,0 +1,62 @@
+[
+  {
+    "fields": {
+      "type": "B738",
+      "airline": "5c1b0b32-e1f2-4b09-96ed-c3ed4f5d0893",
+      "manufacturer": "Boeing",
+      "created_at": "2023-05-01T00:00:00.000000"
+    },
+    "model": "aircrafts.aircraft",
+    "pk": "09b601db-d5fe-4bd8-9f6d-b1b33e785999"
+  },
+  {
+    "fields": {
+      "type": "B738",
+      "airline": "3f10e180-e355-42d5-a3a1-9361f6f57991",
+      "manufacturer": "Boeing",
+      "created_at": "2023-05-01T00:00:00.000000"
+    },
+    "model": "aircrafts.aircraft",
+    "pk": "92d7c3d8-d63e-40c2-a905-f34f8b3823e9"
+  },
+  {
+    "fields": {
+      "type": "B738",
+      "airline": "19d2e0aa-dea4-4641-a38f-3812d1df3473",
+      "manufacturer": "Boeing",
+      "created_at": "2023-05-01T00:00:00.000000"
+    },
+    "model": "aircrafts.aircraft",
+    "pk": "9b81b2ff-fda9-4d33-9744-57814d4743dc"
+  },
+  {
+    "fields": {
+      "type": "B738",
+      "airline": "b888549c-d2db-4aaf-b9de-943b37623174",
+      "manufacturer": "Boeing",
+      "created_at": "2023-05-01T00:00:00.000000"
+    },
+    "model": "aircrafts.aircraft",
+    "pk": "c2b7a6a7-76e9-438e-a860-464e75d349b3"
+  },
+  {
+    "fields": {
+      "type": "B738",
+      "airline": "465c8fe3-44f8-4408-8652-9206963c9f3c",
+      "manufacturer": "Boeing",
+      "created_at": "2023-05-01T00:00:00.000000"
+    },
+    "model": "aircrafts.aircraft",
+    "pk": "1e30e7be-857f-4b4b-8f7a-1229fd71db5d"
+  },
+  {
+    "fields": {
+      "type": "B738",
+      "airline": "4e3d1867-a479-4418-ab09-2a7c33229759",
+      "manufacturer": "Boeing",
+      "created_at": "2023-05-01T00:00:00.000000"
+    },
+    "model": "aircrafts.aircraft",
+    "pk": "9374da61-442b-4a67-bfe5-60eafcf2599f"
+  }
+]
