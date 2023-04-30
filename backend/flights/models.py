@@ -12,10 +12,16 @@ class Flight(models.Model):
         on_delete=models.CASCADE,
     )
     origin = models.ForeignKey(
-        "airports.airport", related_name="departures", null=False, on_delete=models.CASCADE
+        "airports.airport",
+        related_name="departures",
+        null=False,
+        on_delete=models.CASCADE,
     )  # departure
     destination = models.ForeignKey(
-        "airports.airport", related_name="arrivals", null=False, on_delete=models.CASCADE
+        "airports.airport",
+        related_name="arrivals",
+        null=False,
+        on_delete=models.CASCADE,
     )  # arraival
     departure_time = models.TimeField()
     arrival_time = models.TimeField()
