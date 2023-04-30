@@ -17,4 +17,4 @@ class Aircraft(models.Model):
     last_modified_at = models.DateTimeField(auto_now=True, null=True)
 
     def __str__(self) -> str:
-        return f"{self.type} ({self.id})"
+        return f"{self.type} ({self.airline.name}, {self.id})"

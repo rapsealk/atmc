@@ -1,4 +1,5 @@
 from django.db import models
+from django.utils.translation import gettext_lazy as _
 
 
 class Flight(models.Model):
@@ -30,3 +31,14 @@ class Flight(models.Model):
 
     def __str__(self) -> str:
         return f"{self.name}"
+
+
+class FlightSchedule(models.Model):
+    class Status(models.TextChoices):
+        PENDING = "PENDING", _("PENDING")
+        PREFLIGHT = "PREFLIGHT", _("PREFLIGHT")
+
+    id = models.UUIDField(primary_key=True)
+    flight = models.ForeignKey("flights.flight", on_delete=models.CASCADE)
+    date = models.DateField(auto_now_add=True)
+    status = models.CharField(choices=Status.choices)
