@@ -13,3 +13,6 @@ class Aircraft(models.Model):
     manufacturer = models.CharField(max_length=1, choices=Manufacturer.choices)
     created_at = models.DateTimeField(auto_now_add=True)
     last_modified_at = models.DateTimeField(auto_now=True, null=True)
+
+    def __str__(self) -> str:
+        return f"{self.type} ({self.id})"

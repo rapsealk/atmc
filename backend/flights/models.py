@@ -21,3 +21,6 @@ class Flight(models.Model):
     arrival_time = models.TimeField()
     created_at = models.DateTimeField(auto_now_add=True)
     last_modified_at = models.DateTimeField(auto_now=True, null=True)
+
+    def __str__(self) -> str:
+        return f"{self.name}"
