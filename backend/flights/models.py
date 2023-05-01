@@ -41,4 +41,4 @@ class FlightSchedule(models.Model):
     id = models.UUIDField(primary_key=True)
     flight = models.ForeignKey("flights.flight", on_delete=models.CASCADE)
     date = models.DateField(auto_now_add=True)
-    status = models.CharField(choices=Status.choices)
+    status = models.CharField(max_length=16, choices=Status.choices)
