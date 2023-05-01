@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class FlightsConfig(AppConfig):
+class AirlinesConfig(AppConfig):
     default_auto_field = "django.db.models.BigAutoField"
-    name = "flights"
+    name = "atmc.airlines"
